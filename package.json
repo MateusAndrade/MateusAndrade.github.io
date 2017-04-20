@@ -1,0 +1,23 @@
+{
+  "name": "github-io",
+  "version": "1.0.0",
+  "description": "\"# MateusAndrade.github.io\"",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MateusAndrade/MateusAndrade.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MateusAndrade/MateusAndrade.github.io/issues"
+  },
+  "homepage": "https://github.com/MateusAndrade/MateusAndrade.github.io#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0"
+  }
+}
