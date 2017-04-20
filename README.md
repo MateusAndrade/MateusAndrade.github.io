@@ -2,6 +2,6 @@
 
 ## Todo
 
-    * Definir paleta de cores do IO.
-    * Definir layout base.
+    * Definir paleta de cores do IO. <input type="checkbox">
+    * Definir layout base. <input type="checkbox">
 
