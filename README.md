@@ -4,4 +4,5 @@
 
     * Definir paleta de cores do IO. 
     * Definir layout base.
+    * Efeito Typewrite
 
