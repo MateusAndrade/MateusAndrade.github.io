@@ -3,14 +3,23 @@ module.exports = function(grunt) {
     copy: {
         public: {
             files: [
-                {src: 'node_modules/angular/angular.min.js', dest: 'assets/js/angular.min.js'}
+                {src: 'node_modules/bootstrap/dist/css/bootstrap.min.css', dest: 'app/assets/css/bootstrap.min.css'},
+                {src: 'node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.eot', dest: 'app/assets/fonts/glyphicons-halflings-regular.eot'},
+                {src: 'node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.svg', dest: 'app/assets/fonts/glyphicons-halflings-regular.svg'},
+                {src: 'node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf', dest: 'app/assets/fonts/glyphicons-halflings-regular.ttf'},
+                {src: 'node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.woff', dest: 'app/assets/fonts/glyphicons-halflings-regular.woff'},
+                {src: 'node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2', dest: 'app/assets/fonts/glyphicons-halflings-regular.woff2'},
+                {src: 'node_modules/angular-route/angular-route.min.js', dest: 'app/assets/js/angular-route.min.js'},
+                {src: 'node_modules/bootstrap/dist/js/bootstrap.min.js', dest: 'app/assets/js/bootstrap.min.js'},
+                {src: 'node_modules/jquery/dist/jquery.min.js', dest: 'app/assets/js/jquery.min.js'},
+                {src: 'node_modules/angular/angular.min.js', dest: 'app/assets/js/angular.min.js'}
             ],
         }
     },
     sass : {
         dist : {
             files : {
-                'assets/css/style.css' : 'assets/sass/main.scss'
+                'dev/css/style.css' : 'dev/sass/main.scss'
             }
         }
     },
@@ -18,9 +27,9 @@ module.exports = function(grunt) {
         target: {
             files: [{
                 expand: true,
-                cwd: 'assets/css',
+                cwd: 'dev/css',
                 src: ['*.css', '!*.min.css'],
-                dest: 'assets/css',
+                dest: 'app/assets/css',
                 ext: '.min.css'
             }]
         }

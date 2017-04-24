@@ -1,0 +1,58 @@
+*{
+    font-family: 'Roboto Slab', serif;    
+}
+
+.background-topo{
+    padding: 20px;
+    background: #8fbdbd;
+}
+
+.background-sobre{
+    padding: 20px;
+    background: #53a3c2;
+}
+
+.legenda-profile-picture{
+    margin-top:10px;
+    margin-bottom:0px;
+    padding-bottom: 5px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.btn-link-perfil{
+    z-index: 10000;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+
+.alinha-botao-setor{
+    margin-bottom:-20px;
+}
+
+.h1-projetos{
+    color: #FFF;
+}
+
+.list-item{
+    list-style: none;
+    margin-left: 20px;
+}
+
+.list-item a{
+    // font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color:#FFF;
+}
+
+.progress-personalidade{
+
+}
+
+.progress-bar-starwars{
+    background: #757575 !important;
+}
