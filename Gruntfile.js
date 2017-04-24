@@ -23,7 +23,7 @@ module.exports = function(grunt) {
             }
         }
     },
-    cssmin: {
+    cssmin : {
         target: {
             files: [{
                 expand: true,
@@ -33,13 +33,21 @@ module.exports = function(grunt) {
                 ext: '.min.css'
             }]
         }
+    },
+    uglify : {
+        my_target : {
+            files : {
+                'app/assets/js/animate-cursor.min.js' : ['dev/js/animate-cursor.js']                
+            }
+        }
     }
-  });
+  }); 
 
   grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-copy');
+  grunt.loadNpmTasks('grunt-contrib-uglify');
 
-  grunt.registerTask('default',['sass','cssmin','copy']);
+  grunt.registerTask('default',['sass','cssmin','copy','uglify']);
 
 };
