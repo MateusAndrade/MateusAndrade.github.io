@@ -27,6 +27,7 @@ html, body {
   border-bottom-right-radius: 0px !important; }
 
 .alinha-botao-setor {
+  margin-top: 10px;
   margin-bottom: -20px; }
 
 .h1-projetos {
@@ -45,7 +46,8 @@ html, body {
 .progress-bar-starwars {
   background: #757575 !important; }
 
-.typewriter span {
+.typewriter p {
+  max-width: 200px;
   overflow: hidden;
   /* Ensures the content is not revealed until the animation */
   border-right: .15em solid white;
