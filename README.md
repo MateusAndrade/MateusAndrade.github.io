@@ -3,6 +3,6 @@
 ## Todo
 
     * Definir paleta de cores do IO. 
-    * Definir layout base.
-    * Efeito Typewrite
+    * Testar em celulares. 
+    * Finalizar layout.  
 

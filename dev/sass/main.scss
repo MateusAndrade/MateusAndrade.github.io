@@ -1,3 +1,5 @@
+$text-color:#FFF;
+
 *{
     font-family: 'Roboto Slab', serif;    
 }
@@ -52,6 +54,24 @@ html,body{
     letter-spacing: 1px;
     text-decoration: none;
     color:#FFF;
+}
+
+.img-links{
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+.link{
+    font-weight: bolder;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    color: $text-color;
+}
+
+.link:hover{
+    text-decoration: none;
+    color:#000;
 }
 
 .progress-personalidade{

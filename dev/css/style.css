@@ -43,6 +43,21 @@ html, body {
   text-decoration: none;
   color: #FFF; }
 
+.img-links {
+  height: 150px;
+  margin-bottom: 15px; }
+
+.link {
+  font-weight: bolder;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  color: #FFF; }
+
+.link:hover {
+  text-decoration: none;
+  color: red; }
+
 .progress-bar-starwars {
   background: #757575 !important; }
 
