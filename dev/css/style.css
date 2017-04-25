@@ -37,7 +37,7 @@ html, body {
   list-style: none;
   margin-left: 20px; }
 
-.list-item a {
+.list-item {
   font-weight: bolder;
   letter-spacing: 1px;
   text-decoration: none;
@@ -49,14 +49,13 @@ html, body {
 
 .link {
   font-weight: bolder;
-  font-size: 18px;
   letter-spacing: 1.5px;
   text-decoration: none;
   color: #FFF; }
 
 .link:hover {
   text-decoration: none;
-  color: red; }
+  color: #000; }
 
 .progress-bar-starwars {
   background: #757575 !important; }
