@@ -1,0 +1,30 @@
+{
+  "name": "GitIo",
+  "version": "1.0.0",
+  "description": "My GitHub.io, working on it. =)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MateusAndrade/MateusAndrade.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MateusAndrade/MateusAndrade.github.io/issues"
+  },
+  "homepage": "https://github.com/MateusAndrade/MateusAndrade.github.io#readme",
+  "devDependencies": {
+    "express": "^4.16.1",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-cli": "^1.4.0",
+    "gulp-minify": "^1.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-watch": "^4.3.11",
+    "gulp-watch-sass": "^1.2.4"
+  }
+}

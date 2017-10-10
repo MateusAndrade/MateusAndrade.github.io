@@ -1,0 +1,21 @@
+{
+  "name": "GitIo",
+  "homepage": "https://github.com/MateusAndrade/MateusAndrade.github.io",
+  "authors": [
+    "MateusAndrade <mateus.andrade47@outlook.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-beta",
+    "animate.css": "^3.5.2"
+  }
+}
