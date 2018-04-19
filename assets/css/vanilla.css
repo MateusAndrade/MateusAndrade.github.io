@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #ECE9E6; 
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6); 
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6);    
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .main__block{
+    align-self: center;
+    font-size: 20px;
+    margin-top: 200px;
+    text-align: center;
+}
+
+.container .main__block .main__messsage{
+    margin: 20px 0 20px 0;
+}
+
+.container .main__block .help__message {
+    font-size: 15px 
+}
